@@ -1,6 +1,6 @@
 # Zadanie: Sokoban 4
 
-Termin: 18.11.2017 06:00 UTC+1
+Termin: 8.12.2018 06:00 UTC+1
 
 ## Etap 0
 
