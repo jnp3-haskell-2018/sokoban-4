@@ -103,7 +103,7 @@ main = drawingOf(pictureOfBools (map even [1..49::Int]))
 
 Zdefiniuj `etap4 :: Picture`  jako wizualizację wyników dla wszystkich poziomów. Użyj tej wizualizacji jako ekranu startowego w kolejnym etapie.
 
-## Etap 5 - wieleopoziomowy Sokoban
+## Etap 5 - wielopoziomowy Sokoban
 
 Przerób funkcje wyszukujące skrzynie i `isWinning` z poprzedniego etapu tak aby używaly osiągalnych skrzyń. 
 Odpowiednio przerób funkcję rysującą - w ten sposób będzie mozna rysowac poziomy różnych rozmiarów.
@@ -116,3 +116,5 @@ main = etap5
 ```
 
 `etap5` powinien używać także  `withUndo`, `withStartScreen` oraz `resettable`.
+
+Dodaj możliwość przejścia do nastepnego poziomu po naciśnięciu `N`.
